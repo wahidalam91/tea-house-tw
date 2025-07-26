@@ -31,21 +31,27 @@
 <body class="font-manrope">
     <header class="max-w-screen-xl mx-auto mt-5 md:mt-10 px-5 py-3 mb-24">
         <!-- Banner -->
-         <div class="banner md:flex  ">
+         <div class="banner md:flex md:items-center">
             <!-- Banner Text -->
             <div class="banner-text ">
-                <h1 class="font-black text-5xl text-center md:text-[80px] md:leading-24">It's good <br> tea time at The <br> Tea House</h1>
-                <p class="text-gray-500 md:w-3/4 my-7 text-center font-medium">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                <button class="text-white text-xl font-bold px-5 py-4 mx-16 bg-linear-to-r from-orange-400 to-red-500 rounded-lg">Explore More <i class="ml-1 ri-arrow-right-up-line"></i></button>
+                <!-- Banner Title -->
+                <h1 class="font-black text-5xl text-center md:text-left md:text-[80px] md:leading-24">It's good <br> tea time at The <br> Tea House</h1>
+                <!-- Banner Description -->
+                <p class="text-gray-500 md:w-3/4 my-7 text-center md:text-left font-medium">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <!-- Banner Button -->
+                <button class="text-white text-xl font-bold px-5 py-4 mx-16 md:mx-0 bg-linear-to-r from-orange-400 to-red-500 rounded-lg">Explore More <i class="ml-1 ri-arrow-right-up-line"></i></button>
             </div>
-            <!-- Banner Image -->
+            <!-- Banner Image and Rating Card -->
             <div class="banner-image relative mx-auto">
+                <!-- Banner Image -->
                 <img src="./images/banner.png" alt="">
                 <!-- Rating Card -->
                  <div class="absolute top-52 left-4 md:top-72 lg:top-96 lg:left-20 w-3/4 md:w-[255px] rounded-lg shadow-2xl px-4 py-4 rating-card flex items-center gap-4 bg-white">
+                    <!-- Rating Icon -->
                     <div class="rating-icon">
                         <i class="text-amber-500 text-5xl ri-star-fill"></i>
                     </div>
+                    <!-- Rating Text -->
                     <div class="rating-text">
                         <h2 class="text-3xl font-black">5.00</h2>
                         <p class="text-gray-500 font-semibold">Trust Pilot Ratings</p>
@@ -55,6 +61,59 @@
             </div>
          </div>
     </header>
+    <main class="max-w-screen-xl mx-auto px-5 py-3 mb-24">
+        <!-- Featured Product Section -->
+         <section class="mb-2">
+            <!-- Section Header -->
+             <div class="section-header">
+                <!-- Section-title -->
+                <h2 class="text-center font-extrabold text-5xl mb-7">Our Featured Products</h2>
+                <!-- Section Description -->
+                <p class="w-3/4 mx-auto text-center tracking-wide font-medium text-gray-500 mb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+             </div>
+             <!-- Items Deatils -->
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                <!-- Item-1 -->
+                 <div class="bg-gray-100 px-4 py-2 rounded-lg">
+                    <!-- Item Image -->
+                    <img class="item-img mx-auto px-5 py-4" src="./images/tea-1.png" alt="">
+                    <!-- Item Name -->
+                    <h3 class="item-title font-extrabold text-2xl my-3 ">Milk Tea</h3>
+                    <!-- About Item -->
+                    <p class="item-brief text-gray-500 font-semibold w-4/5 mx-auto mb-7">Creamer could be replaced by fresh milk</p>
+                 </div>
+                <!-- Item-2 -->
+                 <div class="bg-gray-100 px-4 py-2 rounded-lg">
+                    <!-- Item Image -->
+                    <img class="item-img mx-auto px-5 py-4" src="./images/tea-2.png" alt="">
+                    <!-- Item Name -->
+                    <h3 class="item-title font-extrabold text-2xl my-3">Black Tea</h3>
+                    <!-- About Item -->
+                    <p class="item-brief text-gray-500 font-semibold w-4/5 mx-auto mb-7">Creamer could be replaced by fresh milk</p>
+                 </div>
+                <!-- Item-3 -->
+                 <div class="bg-gray-100 px-4 py-2 rounded-lg">
+                    <!-- Item Image -->
+                    <img class="item-img mx-auto px-5 py-4" src="./images/tea-3.png" alt="">
+                    <!-- Item Name -->
+                    <h3 class="item-title font-extrabold text-2xl my-3">Lemon Tea</h3>
+                    <!-- About Item -->
+                    <p class="item-brief text-gray-500 font-semibold w-4/5 mx-auto mb-7">Creamer could be replaced by fresh milk</p>
+                 </div>
+                <!-- Item-4 -->
+                 <div class="bg-gray-100 px-4 py-2 rounded-lg">
+                    <!-- Item Image -->
+                    <img class="item-img mx-auto px-5 py-4" src="./images/tea-4.png" alt="">
+                    <!-- Item Name -->
+                    <h3 class="item-title font-extrabold text-2xl my-3">Green Tea</h3>
+                    <!-- About Item -->
+                    <p class="item-brief text-gray-500 font-semibold w-4/5 mx-auto mb-7">Creamer could be replaced by fresh milk</p>
+                 </div>
+              </div>
+         </section>
+
+         
+    </main>
 </body>
 </html>
 
