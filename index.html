@@ -19,48 +19,42 @@
     href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
     rel="stylesheet"/>
 
-    <style>
-        
-        .font-manrope {
-        font-family: "Manrope", sans-serif;
-        font-optical-sizing: auto;
-        font-style: normal;
-        }
-    </style>
+        <style type="text/tailwindcss">
+         @theme {
+        --color-clifford: #da373d;
+
+        --font-manrope: "Manrope", sans-serif;
+         }
+        </style>
+
 </head>
-<body>
-    <!-- Main Content -->
-    <main class="max-w-screen-xl mx-auto px-16 lg:px-10">
-        <!-- Headert Section -->
-         <header class="flex justify-between pt-10 mb-20">
-            <!-- Text Content -->
-             <div>
-                <h1 class="text-5xl md:text-7xl font-bold">It's good <br> tea time at The <br> Tea House</h1>
-                <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                <br>
-                <button class="bg-linear-to-r from-[#FF8938] to-[#FF0000] text-white font-bold px-5 py-3 rounded-lg">Explore More <i class="
-                text-xl ml-2 ri-arrow-right-up-line"></i></button>
-             </div>
-             <!-- Image Content -->
-              <div class="relative">
-                <!-- Image -->
-                 <div  class="w-full">
-                    <img src="./images/banner.png" alt="">
-                 </div>
-                 <!-- Card -->
-                  <div class="absolute top-28 md:top-96 md:left-32 lg:left-28 flex items-center bg-white shadow-xl rounded-lg px-2 py-2 md:px-10 lg:py-4">
-                    <!-- Icon-->
-                    <div>
-                        <i class="fa-solid fa-star text-2xl text-amber-500"></i>
+<body class="font-manrope">
+    <header class="max-w-screen-xl mx-auto mt-5 md:mt-10 px-5 py-3 mb-24">
+        <!-- Banner -->
+         <div class="banner md:flex  ">
+            <!-- Banner Text -->
+            <div class="banner-text ">
+                <h1 class="font-black text-5xl text-center md:text-[80px] md:leading-24">It's good <br> tea time at The <br> Tea House</h1>
+                <p class="text-gray-500 md:w-3/4 my-7 text-center font-medium">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="text-white text-xl font-bold px-5 py-4 mx-16 bg-linear-to-r from-orange-400 to-red-500 rounded-lg">Explore More <i class="ml-1 ri-arrow-right-up-line"></i></button>
+            </div>
+            <!-- Banner Image -->
+            <div class="banner-image relative mx-auto">
+                <img src="./images/banner.png" alt="">
+                <!-- Rating Card -->
+                 <div class="absolute top-52 left-4 md:top-72 lg:top-96 lg:left-20 w-3/4 md:w-[255px] rounded-lg shadow-2xl px-4 py-4 rating-card flex items-center gap-4 bg-white">
+                    <div class="rating-icon">
+                        <i class="text-amber-500 text-5xl ri-star-fill"></i>
                     </div>
-                    <!-- Text -->
-                     <div class="ml-2">
-                        <h2 class="lg:text-2xl font-bold">5.00</h2>
-                        <p class="text-gray-500 font-medium">Trust Pilot Ratings</p>
-                     </div>
-                  </div>
-              </div>
-         </header>
-    </main>
+                    <div class="rating-text">
+                        <h2 class="text-3xl font-black">5.00</h2>
+                        <p class="text-gray-500 font-semibold">Trust Pilot Ratings</p>
+                    </div>
+                 </div>
+
+            </div>
+         </div>
+    </header>
 </body>
 </html>
+
